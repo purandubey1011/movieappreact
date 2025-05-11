@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import  { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { asyncloadmovie, removemovie } from "../store/actions/movieActions";
 import {
@@ -12,7 +12,7 @@ import HorizontalCards from "./partials/HorizontalCards";
 import Loading from "./Loading";
 
 const Moviedetails = () => {
-    document.title = "SCSDB | Movie Details";
+    document.title = "Flixora | Movie Details";
 
     const { pathname } = useLocation();
     const navigate = useNavigate();

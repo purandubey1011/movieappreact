@@ -7,7 +7,7 @@ import Loading from "./Loading";
 import Dropdown from "./partials/Dropdown";
 
 const PersonDetails = () => {
-    document.title = "SCSDB | Person Details";
+    document.title = "Flixora | Person Details";
 
     const { pathname } = useLocation();
     const navigate = useNavigate();

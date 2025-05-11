@@ -8,7 +8,7 @@ import Dropdown from "./partials/Dropdown";
 import Cards from "./partials/Cards";
 
 const Movie = () => {
-    document.title = "SCSDB | Movies";
+    document.title = "Flixora | Movies";
 
     const navigate = useNavigate();
     const [category, setcategory] = useState("now_playing");

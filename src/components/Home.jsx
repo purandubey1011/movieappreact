@@ -8,7 +8,7 @@ import Dropdown from "./partials/Dropdown";
 import Loading from "./Loading";
 
 const Home = () => {
-    document.title = "SCSDB | Homepage";
+    document.title = "Flixora | Homepage";
     const [wallpaper, setwallpaper] = useState(null);
     const [trending, settrending] = useState(null);
     const [category, setcategory] = useState("all");

@@ -8,7 +8,7 @@ import Dropdown from "./partials/Dropdown";
 import Cards from "./partials/Cards";
 
 const People = () => {
-    document.title = "SCSDB | person Shows";
+    document.title = "Flixora | person Shows";
 
     const navigate = useNavigate();
     const [category, setcategory] = useState("popular");
